@@ -235,6 +235,7 @@ class ViewController: UIViewController {
             }
         } else {
             wrongAnswerScore += 1
+            sender.tintColor = .red
             changeNegativeEmoji()
         }
         
